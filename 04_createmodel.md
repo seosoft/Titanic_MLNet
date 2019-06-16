@@ -321,7 +321,7 @@ Age が空の行を削除する方法もありますが、今回は Age が空�
    ![Add Model Save Block](./images/04/add_save_block.jpg)
 
 2. [**デバッグ**]-[**デバッグの開始**] をクリックします。  
-   アプリケーションがデバッグ実行され、額十炭モデルが保存されます。
+   アプリケーションがデバッグ実行され、学習済みモデルが保存されます。
    保存先は "**\<プロジェクトフォルダー\>\\Data\TrainedModel.zip**" です。
 
    ![Saved TrainedModel](./images/04/saved_trainedmodel.jpg)
