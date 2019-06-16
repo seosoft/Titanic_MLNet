@@ -12,7 +12,7 @@
 ![Predict with Functions on VSCode](./images/predict_with_functions_on_vscode.jpg)
 ![Predict with Azure Functions on VSCode](./images/request_from_postman.jpg)
 
-> 同様の予測モデルを作成する手順として、
+> 同様の分類モデルを作成する手順として、
 >
 > - [**Azure Machine Learning Studio** を使用するコンテンツ](https://github.com/seosoft/Titanic_MachineLearningStudio)
 > - [**Azure Machine Learning Service Visual interface** を使用するコンテンツ](https://github.com/seosoft/Titanic_MLServiceVisualInterface)
@@ -21,16 +21,18 @@
 
 ---
 
-今回は、データセットを単に **学習** するだけではなく、学習済みモデルを　Azure Functions にデプロイして **利用** する手順まで紹介します。
+今回は、データセットを単に **学習** するだけではなく、学習済みモデルを Azure Functions のローカルホストで **実行** してクライアントから利用する手順まで紹介します。
 
-> ただし、このコンテンツ内では Azure Functions をローカル環境でデバッグ実行します。
+> このコンテンツでは、Functions のローカル実行の範囲を扱います。
 
 機械学習（深層学習でも基本的には同様）は、以下の流れで進めます。
 
 1. [データを用意する](./01_preparedata.md)
 2. [データを整形して分析する](./02_dataanalyze.md)
-3. [モデルを作成する](03_createmodel.md)
-4. (以下、準備中)
+3. [データ読み込みの準備をする](./03_prelaredataload.md)
+4. [モデルを作成する](./04_createmodel.md)
+5. [評価モデルを作成する](./05_predictmodel.md)
+6. (準備中)
 
 ---
 
