@@ -37,7 +37,7 @@
 ML.NET の学習アプリは、.NET Core コンソールアプリとして作ります。
 
 1. **コマンドプロンプト**（Windows 以外では **ターミナル**、以下も適宜読み替えてください）を開きます。
-2. コンソールアプリを作成する親フォルダー（任意）に移動します。
+2. コンソールアプリを作成する親フォルダー（任意、ここでは C:\Data）に移動します。
 3. コンソールアプリのプロジェクト用のフォルダーを作成します。  
    ここでは "**TitanicTrain**" とします。
 4. プロジェクト用のフォルダーに移動します。
@@ -62,7 +62,7 @@ ML.NET の学習アプリは、.NET Core コンソールアプリとして作り
    パッケージ名は "**Microsoft.ML**" です。
 
    ```cmd
-   donet add package Microsoft.ML
+   dotnet add package Microsoft.ML
    ```
 
    ![Add Package Microsoft.ML](./images/03/add_package_microsoft_ml.jpg)
