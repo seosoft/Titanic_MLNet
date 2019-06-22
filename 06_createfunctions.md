@@ -296,7 +296,7 @@ Azure Functions で ML.NET で作成したモデルを使用して予測する�
 
 1. Visual Studio Code で、[**デバッグ**]-[**デバッグの開始**] をクリックします。
 2. Function が実行されて、ターミナルに URL が表示されます。  
-   "**http://localhost:7071/api/PredictSurvived**" のような URL になっているはずです。  
+   "**<http://localhost:7071/api/PredictSurvived>**" のような URL になっているはずです。  
    ![Http Functions URL](./images/06/http_functions_url.jpg)
 
 3. Postman に必要な情報を埋めていきます。  
