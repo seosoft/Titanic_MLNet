@@ -29,11 +29,11 @@
 
 1. [データを用意する](./01_preparedata.md)
 2. [データを整形して分析する](./02_dataanalyze.md)
-3. [データ読み込みの準備をする](./03_prelaredataload.md)
+3. [データ読み込みの準備をする](./03_prepareloaddata.md)
 4. [モデルを作成する](./04_createmodel.md)
 5. [予測モデルを作成する](./05_predictmodel.md)
 6. [予測をサービス化する](./06_createfunctions.md)
-7. (準備中)
+7. [予測サービスをクラウドに発行する](./07_deploytoazure.md)
 
 ---
 

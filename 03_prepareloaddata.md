@@ -22,7 +22,8 @@
 > 手順の違う箇所、追加などがありましたら、Pull Request, Issues でお知らせください。（Windows 版の間違いについても同様にお知らせください）
 
 1. [Visual Studio Code](https://code.visualstudio.com/) をインストールします。
-2. [.NET Core SDK](https://dotnet.microsoft.com/download) をインストールします。
+2. [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) をインストールします。
+3. [.NET Core SDK](https://dotnet.microsoft.com/download) をインストールします。
 
    > .NET Core は Runtime ではなく SDK を選択してインストールします。  
    >
