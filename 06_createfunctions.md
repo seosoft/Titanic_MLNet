@@ -5,7 +5,7 @@
 ここからは、予測モデルを **Azure Functions** の関数としてホストして、サービスとして利用できるようにします。  
 最初に、ローカルでデバッグ実行してみます。
 
-![Azure FUnctions on Local PC](./images/06/)
+![Azure Functions on Local PC](./images/06/debug_run_function_template.jpg)
 
 > Azure にデプロイするのは次のステップで行います。
 
@@ -48,7 +48,7 @@ Azure Functions プロジェクトを作成して、予測のための関数を�
 7. [**Provide a namespace**] の入力を求められます。ここでは名前空間として "**TitanicFunction**" と入力します。  
    ![Provide a namespace](./images/06/provide_namespace.jpg)
 
-8. [**AccessRights**] の選択を求められます。ここでは "**Function**" を選択します。  
+8. [**AccessRights**] の選択を求められます。ここでは "**Anonymous**" を選択します。  
    ![AccessRights](./images/06/select_accessrights.jpg)
 
 9. [**Select how to open ～**] の選択を求められます。ここでは "Open in current window" を選択します。  
@@ -70,11 +70,13 @@ Azure Functions プロジェクトを作成して、予測のための関数を�
 
 "Microsoft.ML" パッケージをプロジェクトに追加します。
 
-1. Visual Studio Code のメニューで [**表示**]-[**ターミナル**] を選択します。
-2. [**+**] で新しいターミナルを開きます。"**PowerShell**" のターミナルが開くのを確認します。  
-   ![Create New Terminal](./images/06/create_new_terminal.jpg)
+1. Visual Studio Code のメニューで [**表示**]-[**ターミナル**] を選択します。  
+   ターミナルが "PowerShell" ならば、そのままで手順を進めます。
 
-3. "Microsoft.ML" および "Microsoft.Extensions.ML" パッケージをインストールします。  
+   > ターミナルが "タスク - build" などの場合は（"PowerShell" でない場合）、[**+**] で "**PowerShell**" の新しいターミナルが開くのを確認します。  
+   > ![Create New Terminal](./images/06/create_new_terminal.jpg)
+
+2. "Microsoft.ML" および "Microsoft.Extensions.ML" パッケージをインストールします。  
    ターミナルで以下の入力をします。
 
    ```cmd
@@ -252,7 +254,7 @@ Azure Functions で ML.NET で作成したモデルを使用して予測する�
        {
            [FunctionName("PredictSurvived")]
            public async Task<IActionResult> Run(
-               [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+               [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
                ILogger log)
            {
                log.LogInformation("C# HTTP trigger function processed a request.");
