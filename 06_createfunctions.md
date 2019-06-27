@@ -48,7 +48,7 @@ Azure Functions プロジェクトを作成して、予測のための関数を�
 7. [**Provide a namespace**] の入力を求められます。ここでは名前空間として "**TitanicFunction**" と入力します。  
    ![Provide a namespace](./images/06/provide_namespace.jpg)
 
-8. [**AccessRights**] の選択を求められます。ここでは "**Anonymous**" を選択します。  
+8. [**AccessRights**] の選択を求められます。ここでは "**Function**" を選択します。  
    ![AccessRights](./images/06/select_accessrights.jpg)
 
 9. [**Select how to open ～**] の選択を求められます。ここでは "Open in current window" を選択します。  
@@ -329,5 +329,5 @@ Azure Functions で ML.NET で作成したモデルを使用して予測する�
 
 ---
 
-以上で、予測サービスの作成と実行、またクライアントからのリクエストができました。
+以上で、予測サービスの作成と実行、またクライアントからのリクエストができました。  
 [**最後のステップ**](./07_deploytoazure.md) では、今作った Function を Azure にデプロイします。
