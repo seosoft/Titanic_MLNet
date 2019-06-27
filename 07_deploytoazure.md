@@ -133,7 +133,7 @@ Blob にアップロードした学習済みモデルのファイル "TrainedMod
 
 ---
 
-## Function にデプロイ
+## Function App にデプロイ
 
 ソースコードを変更したので、Function App にデプロイします。
 
