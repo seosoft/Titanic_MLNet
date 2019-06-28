@@ -1,0 +1,14 @@
+using Microsoft.ML.Data;
+
+namespace TitanicPredict.Data
+{
+    public class PassengerPredict : Passenger
+    {
+        [ColumnName("PredictedLabel")]
+        public bool Prediction { get; set; }
+
+        public float Probability { get; set; }
+
+        public float Score { get; set; }
+    }
+}
