@@ -254,7 +254,7 @@ Azure Functions で ML.NET で作成したモデルを使用して予測する�
        {
            [FunctionName("PredictSurvived")]
            public async Task<IActionResult> Run(
-               [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+               [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
                ILogger log)
            {
                log.LogInformation("C# HTTP trigger function processed a request.");
