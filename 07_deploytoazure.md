@@ -173,7 +173,7 @@ Azure ポータルで動作確認してみます。
    ![Request Body on Portal](./images/07/input_request_body_on_portal.jpg)
 
 4. [**実行**] をクリックします。  
-   [**出力**] 領域に、よそくしたけっかが表示されます。  
+   [**出力**] 領域に、予測した結果が表示されます。  
    ![Run Function](./images/07/run_function_on_portal.jpg)
 
 Azure Functions 化に成功しました。
