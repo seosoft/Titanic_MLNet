@@ -220,6 +220,6 @@ Azure Functions 化に成功しました。
 以上で、このコンテンツはすべて終了です。
 
 機械学習のデータの用意、学習、クラウドへの発行、クライアントからの利用について、実際に操作してみました。
-[公式の Tutorial](https://dotnet.microsoft.com/learn/machinelearning-ai/ml-dotnet-get-started-tutorial/intro) など他の資料も参照して、機械学習の理解を深めてください。
+[公式の Tutorial](https://docs.microsoft.com/ja-jp/dotnet/machine-learning/tutorials/) など他の資料も参照して、機械学習の理解を深めてください。
 
 このコンテンツへの意見、改善の提案などは、このリポジトリの Issue, Pull request でお知らせください。
