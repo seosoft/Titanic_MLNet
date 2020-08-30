@@ -61,7 +61,7 @@ train.csv は以下の列で構成されます。
 
 |列名|定義|値|
 |---|---|---|
-|Survival|助かったか|0 = 助からなかった, 1 = 助かった|
+|Survived|助かったか|0 = 助からなかった, 1 = 助かった|
 |Pclass|客室の等級|1 = 一等, 2 = 二等, 3 = 三等|
 |Sex|性別|female, male|
 |Age|年齢| |
@@ -72,7 +72,7 @@ train.csv は以下の列で構成されます。
 |Cabin|客室番号| |
 |Embarked|乗船した港|C = Cherbourg, Q = Queenstown, S = Southampton|
 
-survival 以外の列の値から **survival 列を予測** するのが、今回の学習の目的です。  
+survived 以外の列の値から **survived 列を予測** するのが、今回の学習の目的です。  
 
 > test.csv は学習済みモデルをテストするためのデータなので、"survival" 列はありません。このコンテンツの最後のステップで、発行した学習済みモデルで推論する際のテストデータとして使用します。
 
